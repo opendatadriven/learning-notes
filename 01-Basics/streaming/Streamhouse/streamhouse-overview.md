@@ -64,3 +64,4 @@ Batch-First DNA
 - Lakehouse challenges: https://medium.com/data-engineering-with-dremio/the-data-lakehouse-the-benefits-implementation-challenges-and-implementation-solutions-5202925b4125
 - Lakedb - next evolution of the Lakehouse Architecture: https://www.dataengineeringweekly.com/p/envisioning-lakedb-the-next-evolution
 - Streamhouse unveiled: https://www.ververica.com/blog/streamhouse-unveiled
+- Implementation: https://www.alibabacloud.com/blog/flink-materialized-table-building-unified-stream-and-batch-etl_602184
