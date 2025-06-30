@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    container_name: ducklake-postgres
+    environment:
+      POSTGRES_USER: duck
+      POSTGRES_PASSWORD: duck
+      POSTGRES_DB: psyduck
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
